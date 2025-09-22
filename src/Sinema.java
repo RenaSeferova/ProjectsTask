@@ -49,7 +49,7 @@ public class Sinema {
         int setirler = scanner.nextInt();
 
         System.out.print("Oturacaq nömrəsini daxil edin: ");
-        int oturacaq = scanner.nextInt();
+        int oturacaqlar = scanner.nextInt();
 
         if (sinemazal[setirler- 1][oturacaqlar - 1].equals("B")) {
             System.out.println("Bu yer artıq alınıb!");
